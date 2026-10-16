@@ -1,0 +1,22 @@
+
+{
+  "name": "hyris-music",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hyris Music Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^7.2.0",
+    "discord-player": "^7.2.0",
+    "discord-player-youtubedlp": "^1.2.2",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
